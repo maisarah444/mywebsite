@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+<div class="box-area">
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ffe6ff;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffe6f2;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+
+  float: left;
+  width: 20%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ffccff;
+  padding: 20px;
+
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  background-color: #ffffff;
+  height: 300px; 
+  
+
+/* only for demonstration, should be removed */ 
+      
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Style the footer */
+footer {
+  background-color: #ebebe0;
+  padding: 10px;
+  text-align: center;
+  color: #000000S;
+
+<style>
+<!--
+.styling{
+background-color:black;
+color:lime;
+font: bold 18px MS Sans Serif;
+padding: 3px;
+
+
+  
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<header>
+  <h2></h2>
+<img src="image/logo.png" width="150" height="150" style="float:left">
+<img src="image/banner.jpg" width="850" height="180">
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <a href="homepage.html"><img src="image/buttonhome.png"></a>
+    <br>
+    <br>
+    <a href="biodata.html"><img src="image/buttonbiodata.png"></a>
+    <br>
+    <br>
+    <a href="experience.html"><img src="image/buttonexperience.png"></a>
+    <br>
+    <br>
+    <a href="education.html"><img src="image/buttoneducation.png"></a>
+    <br>
+    <br>
+    <a href="family.html"><img src="image/buttonfamily.png"></a>
+    <br>
+    <br>
+    <a href="gallery.html"><img src="image/buttongallery.png"></a>
+    
+     
+    </ul> 
+  </nav>
+  <div>
+  <article>
+    <h1><font size="6">LET ME INTRODUCE MYSELF</h1>
+    <p><font size="4">Hye, I am Maisarah. I am final student in course Diploma Information Management. In this website, I will share my personal life and my best memories with my family and friends. So let's check this out!</p>
+
+</div>
+<img src="image/maisarah.jpeg" width="300" height="400"style="float:right">
+<div> 
+
+</article>
+</section>
+
+<footer>
+<script type="text/javascript"src="https://freehitcounters.org/count/7xuh"></script><br>
+<script type='text/javascript' src='https://www.whomania.com/ctr?id=1b4e9c1e5b823680729bcb292520a2531ea54958'>
+</script>
+
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+
+/*****************************************
+* LCD Clock script- by Javascriptkit.com
+* Featured on/available at http://www.dynamicdrive.com/
+* This notice must stay intact for use
+*****************************************/
+
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='lime'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+</script>
+
+
+
+
+<footer>
+  <p>MAISARAH MAD ISA</p>
+<img src="image/insta.png" width="30" height="30">
+<img src="image/facebook.png" width="40" height="30">
+<img src="image/twitter.jpg" width="40" height="30">
+</footer>
+
+</body>
+</html>
